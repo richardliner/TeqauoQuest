@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nero's Day at Disneyland</title>
+</head>
+<style>
+    body{
+        color: white;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+<body style="background-color: black;">
+    <h1>Hi hi! Welcome to your first task!</h1>
+    <p>Find the account of the man who's birthday is only four from yours.</p>
+    <p>He's red and black and wears a luxury R.</p>
+
+    <p>Once you find it, type in his number.</p>
+    <input id="poopy" type="text"> <button id="button">submit</button>
+    <p>Input any other codes you find here too!</p>
+    <p>If you get stuck, remember that text can be black as well.</p>
+
+    <p style="color: black;">2. ALBUM NAME</p>
+    <p style="color: black;">3. yes</p>
+    <p style="color: black;">4. THE ELEMENT; THE START OF MY NAME</p>
+
+
+    <script>
+        const txt = document.getElementById("poopy")
+        const button = document.getElementById("button")
+        button.addEventListener("click",function(){
+            if (txt.value == "1027350517"){
+                window.location.href = "https://youtu.be/E0Q3shVBgTI?list=OLAK5uy_nTGD9ZqF5i_XqAeP3QjfyEtTJuk6iVA9g"
+            }
+            if (txt.value == "From Rotting Fantasylands"){
+                window.location.href = "https://www.roblox.com/users/746610910/profile"
+            }
+            if (txt.value.toLowerCase() == "yes"){
+                window.location.href = "https://youtu.be/SL2ag1eWMqg"
+            }
+            if (txt.value.toLowerCase() == "no"){
+                window.location.href = "https://www.youtube.com/watch?v=BzIf3D-ATZ0"
+            } 
+            if (txt.value.toLowerCase() == "ri"){
+                window.location.href = "https://discord.gg/UuCnyUjuW"
+            }
+        })
+    </script>
+</body>
+</html>
