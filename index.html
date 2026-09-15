@@ -19,31 +19,31 @@
 
     <p>Once you find it, type in his number.</p>
     <input id="poopy" type="text"> <button id="button">submit</button>
-    <p>Input any other codes you find here too!</p>
+    <p>Input any other codes you find into the bar above too!</p>
     <p>If you get stuck, remember that text can be black as well.</p>
-    <p style="color: black;">1. https://www.roblox.com/users/1027350517/profile</p>
-    <p style="color: black;">2. ALBUM NAME</p>
-    <p style="color: black;">3. yes</p>
-    <p style="color: black;">4. THE ELEMENT; THE START OF MY NAME</p>
+    <p style="color: black;">Hint 1: https://www.roblox.com/users/1027350517/profile</p>
+    <p style="color: black;">Hint 2: THE ALBUM'S NAME (the name of the playlist)</p>
+    <p style="color: black;">Hint 3: yes</p>
+    <p style="color: black;">Hint 4: THE ELEMENT; THE START OF MY NAME</p>
 
 
     <script>
         const txt = document.getElementById("poopy")
         const button = document.getElementById("button")
         button.addEventListener("click",function(){
-            if (txt.value == "1027350517"){
+            if (txt.value.trim() == "1027350517"){
                 window.location.href = "https://youtu.be/E0Q3shVBgTI?list=OLAK5uy_nTGD9ZqF5i_XqAeP3QjfyEtTJuk6iVA9g"
             }
-            if (txt.value == "From Rotting Fantasylands"){
+            if (txt.value.toLowerCase().trim() == "from rotting fantasylands"){
                 window.location.href = "https://www.roblox.com/users/746610910/profile"
             }
-            if (txt.value.toLowerCase() == "yes"){
+            if (txt.value.toLowerCase().trim() == "yes"){
                 window.location.href = "https://youtu.be/SL2ag1eWMqg"
             }
-            if (txt.value.toLowerCase() == "no"){
+            if (txt.value.toLowerCase().trim() == "no"){
                 window.location.href = "https://www.youtube.com/watch?v=BzIf3D-ATZ0"
             } 
-            if (txt.value.toLowerCase() == "ri"){
+            if (txt.value.toLowerCase().trim() == "ri"){
                 window.location.href = "https://discord.gg/UuCnyUjuW"
             }
         })
